@@ -1,0 +1,288 @@
+@font-face {
+	font-family: "LeagueSpartan";
+	src: url('../font/LeagueSpartan-Bold.otf') format("opentype");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "HKGrotesk";
+	src: url(../font/HKGrotesk-Light.otf) format("opentype");
+	font-style: normal;
+	font-weight: 300;
+}
+body {
+	background-color: #272f45;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1160px;
+	text-align: center;
+}
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;	
+}
+.logo {
+	display: block;
+	margin: 63px 0 49px;
+}
+.search {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 24px;
+	padding-left: 33px;
+	padding-bottom: 6px;
+	margin: 80px 0 70px;
+	background: #272f45 url(../images/search.png) 2px 3px no-repeat;
+	border: none;
+	border-bottom: 3px solid #63757e;
+	width: 175px;
+}
+.search::-webkit-input-placeholder { color: #92a1a9; }
+.search:-ms-input-placeholder { color: #92a1a9; }
+.search::-ms-input-placeholder { color: #92a1a9; }
+.search:-moz-placeholder { color: #92a1a9; }
+.search::-moz-placeholder { color: #92a1a9; }
+.search::placeholder { color: #92a1a9; }
+.container {
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-content: space-between;
+	height: 2172px;
+}
+.promo {
+	width: 1160px;
+	height: 690px;
+	background: #bccacf url(../images/Gina.png) no-repeat;	
+	text-align: left;
+}
+.kickstarter {
+	margin: 37px;
+	float: right;
+}
+.promo-name {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin:110px 60px 22px;
+}
+.description {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	color: #ffffff;
+}
+.promo .description {
+	font-size: 32px;
+	line-height: 38px;
+	width: 370px;
+	margin: 1px auto 153px 60px;
+}
+.promo .description .description__line:first-child {
+	letter-spacing: 0.02em;
+}
+.promo .description .description__line:nth-child(2) {
+	letter-spacing: 0.028em;
+}
+.promo .description .description__line:nth-child(3) {
+	letter-spacing: 0.02em;
+}
+.promo .description .description__line:last-child {
+	letter-spacing: 0.027em;
+}
+.link {
+	text-decoration: none;
+	color: #ffffff;
+	border: 3px solid #eec9a2;
+}
+.promo .link {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 24px;
+	margin-left: 60px;
+	padding: 13px 24px;
+	letter-spacing: 0.015em;
+}
+.product {
+	width: 560px;
+	height: 520px;
+	text-align: right;	
+	background: #60b8a3 url(../images/Beoplay-A1-product.png) no-repeat;
+}
+.product:last-child {
+	text-align: left;
+	background: #7778c6 url(../images/Leica-MP-product.png) no-repeat;
+}
+.product-name {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 64px 28px 0px 27px;
+}
+.product .description {
+	font-size: 24px;
+	width: 445px;
+	margin: 11px 30px 78px 85px;
+	line-height: 28px;
+	letter-spacing: 0.015em;
+}
+.product:last-child .description {
+	margin-left: 28px;
+	letter-spacing: 0.02em;
+}
+.product .link {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 13px 37px 6px;
+	margin: 30px;
+}
+.product:first-child .link{
+	letter-spacing: 0.03em;
+}
+.product:last-child .link{
+	letter-spacing: 0.09em;
+}
+.info {
+	width: 360px;
+	height: 440px;
+	text-align: center;
+	background: #557581 url(../images/P9-Signature-product.png) no-repeat;
+}
+.info:first-child{
+	background: #e97864 url(../images/Molekule-product.png) no-repeat;
+}
+.info:last-child{
+	background: #82c9d8 url(../images/DR-II-product.png) no-repeat;
+}
+.info .description {
+	font-size: 16px;
+	margin: 66px 0 14px;
+	letter-spacing: 0.017em;
+}
+.info:nth-child(2)>.description {
+	margin: 262px 0 0 -10px;
+	letter-spacing: 0.01em;
+}
+.info-name {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 11px 0 41px;
+}
+.info:nth-child(2) .info-name {
+	margin-bottom: 40px;
+}
+.info .link {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.11em;
+	margin-left: 8px;
+	padding: 13px 13px 7px 11px;
+}
+.info:last-child .link {
+	margin-left: 3px;
+	padding: 12px 12px 8px 11px;
+}
+.subscribe {
+	margin-top: 102px;
+	height: 300px;
+	text-align: center;
+}
+.subscribe-header {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: 200;
+	line-height: 62px;
+	margin-bottom: 5px;
+	color: #92a1a9;
+	letter-spacing: 0.017em;
+}
+.subscribe .description {
+	font-size: 18px;
+	color: #92a1a9;
+	width: 807px;
+	margin: 0 auto;
+	line-height: 22px;
+	letter-spacing: 0.011em;
+}
+.subscribe-field {
+	margin: 49px auto 0;
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 24px;
+	background-color: #272f45;
+	border: 3px solid #63757e;
+	width: 354px;
+	height: 52px;
+	text-align: center;
+	display: block;
+	letter-spacing: 0.012em;
+}
+.subscribe-field::-webkit-input-placeholder { 
+	color: #92a1a9;
+}
+.subscribe-field:-ms-input-placeholder { 
+	color: #92a1a9;
+}
+.subscribe-field::-ms-input-placeholder { 
+	color: #92a1a9;
+}
+.subscribe-field:-moz-placeholder { 
+	color: #92a1a9;
+}
+.subscribe-field::-moz-placeholder { 
+	color: #92a1a9;
+}
+.subscribe-field::placeholder { 
+	color: #92a1a9;
+}
+.subscribe-button {
+	font-family: "LeagueSpartan", Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 6px 0 0 15px;
+	color: #ffffff;
+	background-color: #272f45;
+	border: 3px solid #82c9d8;
+	width: 360px;
+	height: 60px;
+	text-align: center;
+	margin: 20px auto 0;
+	display: block;
+}
+.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 99px 0 25px;
+}
+.menu-item {
+	display: inline-block;
+	color: #92a1a9;
+	letter-spacing: 0.015em;
+}
+.menu-item:not(:first-child)::before {
+	content: "\2022";
+	font-size: 22px;
+}
+.menu-item a {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 24px;
+	color: #92a1a9;
+	padding: 13px;
+	text-decoration: none;
+}
+.copyright {
+	font-family: "HKGrotesk", Helvetica, sans-serif;
+	font-size: 18px;
+	color: #7f919b;
+	margin-bottom: 40px;
+	letter-spacing: 0.015em;
+}

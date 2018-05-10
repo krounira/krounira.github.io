@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+}
+body{
+	background-color: #f8f8f8;
+	font-family: 'Arial', sans-serif;
+}
+.header{
+	background-image: url(../images/header-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 799px;
+	text-align: center;
+}
+.header__title{
+	font-size: 7.2rem;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 289px;
+	padding-bottom: 14px;
+}
+.header__text{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #fff
+}
+.links{
+	list-style: none;
+}
+.links__item{
+	display: inline-block;
+}
+.links__link{
+	display: block;
+	height: 50px;
+	width: 163px;
+	font-size: 0;
+}
+.header__links{
+	margin-top: 43px;
+}
+.header .links__item{
+	margin: 0 17px;
+}
+.content{
+	width: 95%;
+	max-width: 1064px;
+	margin: 0 auto;
+}
+.section{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.section__item{
+	width: 47%;
+}
+.section__item_left{
+	float: left;
+}
+.section__item_right{
+	float: right;
+}
+.section__title,
+.footer__title{
+	font-size: 3.6rem;
+}
+.section__title{
+	font-weight: bold;
+	color: #333;
+	max-width: 440px;
+	margin: 70px 0 22px 0;
+}
+.section__text{
+	font-size: 1.8rem;
+	font-weight: normal;
+	color: #333;
+}
+.section__img{
+	width: 100%;
+	max-width: 460px;
+	height: auto;
+}
+.footer{
+	background-image: url(../images/footer-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 531px; 
+}
+.footer .content{
+	overflow: hidden;
+}
+.footer__title{
+	font-weight: normal;
+	color: #fff;
+	width: 41%;
+	float: left;
+	margin-top: 247px;
+}
+.footer__links{
+	float: right;
+	width: 56%;
+	margin-top: 241px;
+}
+.footer .links__item{
+	display: inline-block;
+	margin-left: 3%;
+}
+.google{
+	background-image: url(../images/u80.png);
+}
+.google:hover{
+	background-image: url(../images/u80-r.png);
+}
+.twitter{
+	background-image: url(../images/u85.png);
+}
+.twitter:hover{
+	background-image: url(../images/u85-r.png);
+}
+.vkontakte{
+	background-image: url(../images/u90.png);
+}
+.vkontakte:hover{
+	background-image: url(../images/u90-r.png);
+}

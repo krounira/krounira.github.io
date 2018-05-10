@@ -1,0 +1,36 @@
+@media screen and (max-width: 880px){
+	.section__title{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 460px){
+	.section .section__item:last-child{
+		display: none;
+	}
+	.section__item{
+		width: 95%;
+	}
+	.section__item_right{
+		float: left;
+	}
+	.section{
+		padding: 25px 0;
+	}
+}
+@media screen and (max-width: 400px){
+	.footer__title{
+		width: 95%;
+		float: none;
+		text-align: center;
+		margin-top: 100px;
+	}
+	.footer__links{
+		float: none;
+		width: 163px;
+		margin: 25px auto;
+	}
+	.footer .links__item{
+		display: inline-block;
+		margin-left: 0;
+	}
+}
