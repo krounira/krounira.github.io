@@ -25,5 +25,14 @@ var data = [
 		linkToCode: "https://github.com/krounira/krounira.github.io/tree/master/works/gallery/",
 		previewImage: "images/works-preiew/gallery.jpg",
 		tags: ["Pure HTML/CSS", "JQuery"]
-	}
+	},
+	{
+		id: 4,
+		title: "Form-checker",
+		description: "HTML/CSS, Bootstrap, JQuery, RegExp",
+		linkToDemo: "http://krounira.github.io/works/form-checker/",
+		linkToCode: "https://github.com/krounira/krounira.github.io/tree/master/works/form-checker/",
+		previewImage: "images/works-preiew/formchecker.jpg",
+		tags: ["HTML/CSS", "Bootstrap", "JQuery"]
+	},
 ]

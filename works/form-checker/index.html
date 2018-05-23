@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form-checker</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Registration</h1>
+		<form action="https://aqueous-reaches-8130.herokuapp.com/register/" method="POST" id="form-register">
+			<div class="form-group required">
+				<label for="register_name">What`s your name?</label>
+				<input type="text" class="form-control" id="register_name" placeholder="Name">
+			</div>
+			<div class="form-group required">
+				<label for="register_username">Choose yuor username:</label>
+				<input type="text" class="form-control" id="register_username" placeholder="Username">
+			</div>
+			<div class="form-group required">
+				<label for="register_email">Enter your email address (will be used as login):</label>
+				<input type="email" class="form-control" id="register_email" aria-describedby="emailHelp" placeholder="Email">
+			</div>
+			<div class="form-group required">
+				<label for="register_password">Password (must contain at least 6 characters, including UPPER/lowercase and numbers):</label>
+				<input type="password" class="form-control" id="register_password" placeholder="Password">
+			</div>
+			<div class="form-group form-check required">
+				<input type="checkbox" class="form-check-input" id="register_check">
+				<label class="form-check-label" for="register_check">Agree to terms and conditions</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	<script src="js/data.js"></script>
+	<script src='js/formChecker.js'></script>
+	<script>
+		var fc = new formChecker ('#form-register');
+	</script>
+</body>
+</html>
